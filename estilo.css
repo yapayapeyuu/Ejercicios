@@ -12,8 +12,9 @@ aside {
 }
 
 .menu {
-    margin-left: 25px;
-    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .categorias {
@@ -26,6 +27,14 @@ aside {
 
 ul {
     list-style: none;
-    padding-left: 0;
 }
 
+h2 {
+    display: inline-block;
+    width: 90px;
+    height: 30px;
+    background-color:brown;
+    border: 1px solid black;
+    border-radius: 5%;
+    text-align: center; 
+}
